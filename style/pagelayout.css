@@ -1,0 +1,37 @@
+
+
+
+
+/* Esto es el ancho del block */
+#page-content #region-pre {
+    width: 260px;
+}
+
+/*El block no se solapa con la región principal */
+.side-pre-only #page-content #region-main {
+	margin-left: 260px;
+	    
+}
+
+/*MCG Fija el ancho y el margen de la columna derecha de blocks */
+#page-content #region-post {
+    width: 260px;
+	margin-left:-50px;
+}
+
+.side-post-only #page-content #region-post {
+width: 260px;
+}
+
+.side-post-only #page-content #region-post-box {
+margin-left: -260px;
+}
+
+.side-post-only #page-content #region-main {
+margin-left: 260px;
+}
+
+.blocks-moving.side-post-only #page-content #region-main-box {left: 0;}
+.blocks-moving.side-post-only #page-content #region-post-box {margin-left: -260px;}
+.blocks-moving.side-post-only #page-content #region-main {margin-left: 260px;}
+.blocks-moving.side-post-only #page-content #region-post {width: 260px;}

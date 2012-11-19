@@ -1,0 +1,133 @@
+﻿/* @group Footer */
+#page-footer{
+    padding: 20px 0 30px;
+    clear: both;
+    margin-top: 0px;
+     
+}
+
+
+.footnote {
+    float: left;
+}
+
+#footer_links
+{
+
+	float: left;
+	width: 600px;
+	margin-top: 20px;
+}
+
+#footer_links li
+{
+	list-style : none;
+	float: left;
+	padding: 0 5px 0;
+	border-right: 1px solid #999;
+	/*height: 10px;*/
+	margin: 0;
+}
+
+
+
+#footer_powered_by {
+	list-style-type : none;
+	float: right;
+	background: #FFF;
+	padding: 5px;
+ 	margin : 0px;
+	border: 1px solid #DDD;
+	width: 238px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+ 
+#footer_powered_by li
+{
+	list-style : none;
+	float: left;
+	margin: 5px;
+}
+
+#footer_powered_by li a
+{
+	list-style : none;
+	display: block;
+	width: 30px;
+	height: 35px;
+	background-image: url([[pix:theme|logos]]);
+}
+
+#footer_powered_by li a:hover { text-decoration: none; }
+
+#footer_powered_by li.moh a
+{
+	background-position: 0 0;
+	width: 28px;
+}
+
+#footer_powered_by li.dundee a
+{
+	background-position: -44px 0;
+	width: 29px;
+}
+
+#footer_powered_by li.dasmaninstitute a
+{
+	background-position: -89px 0;
+	width: 25px;
+}
+
+#footer_powered_by li.idf a
+{
+	background-position: -133px 0;
+	width: 26px;
+}
+
+#footer_powered_by li.nhstayside a
+{
+	background-position: -174px 0;
+	width: 32px;
+}
+
+#footer_powered_by li.aridhia a
+{
+	background-position: -215px 0;
+	width: 36px;
+}
+
+#page-footer .copyright
+{
+	color: #999;
+	float: left;
+	clear: both;
+	margin: 5px;
+	
+}
+
+
+.footer_list
+{
+	float: left;
+	margin-right: 50px;
+}
+
+p.footer_list b { margin-bottom: 10px; }
+
+#page-footer logos {   
+	float : right;
+	background:#fff;
+    border : 1px solid #999999;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+    
+}
+
+#page-footer .logininfo {
+    padding-top: 80px;
+    text-align: right;
+}
+/* @end */
