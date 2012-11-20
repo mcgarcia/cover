@@ -115,7 +115,7 @@ a:focus {
  
 }
 
-/*MCG that was the original header-wrapper closed */
+/*MCG that was the original header-wrapper closed
 #header-wrapper.headerclosed {
 	height: 0px;
 	min-height: 0px;
@@ -124,7 +124,7 @@ a:focus {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-}
+} */
 
 /*MCG and this is a tip to keep the information visible, */
 #header-wrapper.headerclosed {
