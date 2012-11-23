@@ -113,7 +113,7 @@ echo $OUTPUT->doctype() ?>
 		if (!isloggedin() or isguestuser()) {
    		 include('top-heading.php');
 		} else {
-   		 echo '<h1>You will only see the text if you are logged </h1>';
+   		 include ('logged_frontpage.php') ;
 		} /// MCG keep all the changes limited to this area
 		
 		?> 

@@ -644,10 +644,19 @@ table.user-grade {
 	
 	font-family: Arial, helvetica, sans-serif;
  color:#050505;
- /* MCG fixing the size of h1 */
+ /* MCG fixing the size of font */
 	font-size: x-large;
 }
 
 
 
+/* MCG CSS added for logged frontpage */
+.wrapper2{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   margin-bottom: 0%;
+   
+}
 
