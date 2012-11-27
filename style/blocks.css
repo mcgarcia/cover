@@ -2,8 +2,15 @@
 	text-shadow: 1px 1px 1px white;
 }
 
+/*MCG We added the same effect for the region post */
+#region-post {
+	text-shadow: 1px 1px 1px white;
+}
+
+/*MCG making nice effects now thaty we don't have background image */
 .block {
-	border: 0px solid #ccc;
+	border: 1px solid #ccc;
+	background: #fff;
 }
 
 .block.hidden {

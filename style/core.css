@@ -73,12 +73,10 @@ a:focus {
 
 /*outer container around moodle content, set padding here for moodle content if necessary */
 #page-content-wrapper {
-	width: 90%;
+	width: 90%; /*MCG this fixes the page witdh */
 	margin: 0 auto;
 	min-width: 960px  ; 
 	
-   background: url([[pix:theme|leftcol_big]]) repeat-y top left  ; 
- 
 	
 	
 }
@@ -154,6 +152,7 @@ transition: all 0.4s ease-in-out 0s;
 	margin: 0 auto;
 	min-width: 960px;
 	position: relative;
+	
 }
 
 .headermenu {
@@ -182,7 +181,7 @@ transition: all 0.4s ease-in-out 0s;
 	margin: 0 auto;
 	min-width: 960px;
 	position: relative;
-	background: url([[pix:theme|leaves]]) no-repeat top left;
+	background: url([[pix:theme|leaves]]) no-repeat top left; 
 }
 
 .has_logo #page-header {
@@ -217,12 +216,15 @@ transition: all 0.4s ease-in-out 0s;
 }
 
 .breadcrumb {
+	
+	
 
 }
 
 .navbar .sep {
    font-size: .8em;
-   color: #eee;
+   color: #eee; 
+ 
 }
 
 .navbutton table, .navbutton table td {
