@@ -30,5 +30,31 @@ class theme_cover_core_renderer extends core_renderer {
  
  return parent::render_custom_menu($menu);
     }
+	
+///MCG I want the text in the breadcrump path to be displayed in white
+ public function navbar() {
+        $items = $this->page->navbar->get_items();
+
+        $htmlblocks = array();
+        // Iterate the navarray and display each node
+        $itemcount = count($items);
+        $separator = get_separator();
+        for ($i=0;$i < $itemcount;$i++) {
+            $item = $items[$i];
+            $item->hideicon = true;
+            if ($i===0) {
+                $content = html_writer::tag('li_white', $this->render($item));
+            } else {
+                $content = html_writer::tag('li_white', $separator.$this->render($item));
+            }
+            $htmlblocks[] = $content;
+        }
+
+        //accessibility: heading for navbar list  (MDL-20446)
+        $navbarcontent = html_writer::tag('span', get_string('pagepath'), array('class'=>'accesshide'));
+        $navbarcontent .= html_writer::tag('ul', join('', $htmlblocks));
+        // XHTML
+        return $navbarcontent;
+    }
 
 }
