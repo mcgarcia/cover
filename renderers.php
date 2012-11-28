@@ -43,9 +43,11 @@ class theme_cover_core_renderer extends core_renderer {
             $item = $items[$i];
             $item->hideicon = true;
             if ($i===0) {
-                $content = html_writer::tag('li_white', $this->render($item));
+               
+				$content = html_writer::tag('li', $this->render($item), array('class'=>'white'));
             } else {
-                $content = html_writer::tag('li_white', $separator.$this->render($item));
+              
+			   $content = html_writer::tag('li', $separator.$this->render($item), array('class'=>'white'));
             }
             $htmlblocks[] = $content;
         }

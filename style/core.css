@@ -9,12 +9,8 @@ html,body {
 	
 }
 
-/*MCG this is the text for the breadcrumb path */
-li_white {
-	color: #fff ;
-	
-	
-}
+/*MCG this is the text and separators for the breadcrumb path */
+li.white {color: #fff;}
 
 
 /*MCG I have added helvetica to the font family */
