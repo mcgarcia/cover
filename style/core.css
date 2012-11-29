@@ -78,7 +78,7 @@ a:focus {
 #page-content-wrapper {
 	width: 90%; /*MCG this fixes the page witdh */
 	margin: 0 auto;
-	min-width: 960px  ; 
+	/* min-width: 960px  ; MCG takes this to resize */
 	
 	
 	
@@ -219,11 +219,17 @@ transition: all 0.4s ease-in-out 0s;
 	color: #fff;
 }
 
-.breadcrumb {
-	
-	
+.breadcrumb li,
+.breadcrumb a,
+.breadcrumb a:link,
+.breadcrumb a:visited
 
-}
+.breadcrumb a:hover
+
+.breadcrumb a:active
+
+.breadcrumb a:focus
+ { color: #fff;}
 
 .navbar .sep {
    font-size: .8em;
@@ -236,7 +242,7 @@ transition: all 0.4s ease-in-out 0s;
 	padding: 0 0;
 }
 
-/* footer */
+/* footer  MCG I got my own footer.css
 #page-footer {
 	float: none;
 	border-top: 1px solid #ddd;
@@ -246,7 +252,7 @@ transition: all 0.4s ease-in-out 0s;
   background: -moz-linear-gradient(center top, #fff 0%, #eee 100%);
   background: -moz-gradient(center top, #fff 0%, #eee 100%);
 }
-
+*/
 
 /* forms and boxes */
 .mform fieldset {

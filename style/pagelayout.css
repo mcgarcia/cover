@@ -1,0 +1,37 @@
+@media screen and (min-width:360px) { /*MCG default setting */
+
+
+
+
+#page-content #region-main {
+	
+	
+	
+	width: 20%;
+}
+}
+
+@media screen and (min-width:800px) { /*MCG default setting */
+
+
+
+
+#page-content #region-main {
+	
+	
+	
+	width: 50%;
+}
+}
+
+@media screen and (min-width:980px) { /*MCG default setting */
+
+#page-content #region-main {
+	
+	float:left;
+	
+	
+	width: 80%; /*MCG wrapper:90% -10% margins */
+}
+
+}

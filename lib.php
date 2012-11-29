@@ -76,6 +76,8 @@ function cover_set_linkhover($css, $linkhover) {
     return $css;
 }
 
+
+
 ///MCG  Customising footer
 
 function customised_footer($page, $output) {

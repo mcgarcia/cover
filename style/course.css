@@ -1,11 +1,32 @@
+@media screen and (min-width:360px) { /*MCG default settings depending on the different screens */
+
 .path-course-view #region-main .region-content {
-	overflow: visible;
-	
+	overflow: hidden;
+	width:20%;
 	
 	 
 }
+}
 
+@media screen and (min-width:800px) { /*MCG default settings depending on the different screens */
 
+.path-course-view #region-main .region-content {
+	overflow: hidden;
+	width:50%;
+	
+	 
+}
+}
+
+@media screen and (min-width:980px) { /*MCG default settings depending on the different screens */
+
+.path-course-view #region-main .region-content {
+	overflow: hidden;
+	width:80%;
+	
+	 
+}
+}
 
 
 /** inside  of course **/
@@ -33,6 +54,7 @@ ul.topics, ul.weeks {
 .course-content .main, .course-content .main.section {
   background:transparent;
   background-color: transparent;
+  
    
 	
  
