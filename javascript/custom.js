@@ -21,6 +21,7 @@ if ($('#header-wrapper').hasClass('headerclosed')) {
  });
  
  /* MCG end of accordion menu */
+ 
   var stickyPanelOptions = {
                 topPadding: 0,
                 afterDetachCSSClass: "nowfixed",

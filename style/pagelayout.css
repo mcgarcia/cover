@@ -3,9 +3,9 @@
 
 
 
-#page-content #region-main {
+#page-content #region-main #region-pre { 
 	
-	
+		float:left;
 	
 	width: 20%;
 }
@@ -19,7 +19,7 @@
 #page-content #region-main {
 	
 	
-	
+	float:left;
 	width: 50%;
 }
 }

@@ -80,7 +80,7 @@ echo $OUTPUT->doctype() ?>
 	<div id="page-header" class="page-header-home"  >
 			<?php if ($haslogo) {
 						// MCG I modified this bit adding height and width for our logo 25-06-2012
-                        echo html_writer::link(new moodle_url('/'), "<img src='".$PAGE->theme->settings->logo."'   alt='logo'  height='100' width='397' />");
+                        echo html_writer::link(new moodle_url('/'), "<img src='".$PAGE->theme->settings->logo."' id='logo'   alt='logo'  />");
                     } else { ?>
 			<img src="<?php echo $OUTPUT->pix_url('logo', 'theme')?>"  id="logo">
 			<?php } ?>
