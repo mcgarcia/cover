@@ -197,8 +197,8 @@ transition: all 0.4s ease-in-out 0s;
 	float: left;
     margin-left: 20px;
     margin-top: 45px;
-	height: 126px; /*MCG As I have fixed this height in the frontpage.php and config.php files, it doesn't make any different to alter this value here*/
-	width: 500px;
+	height: 126px; /*MCG we should fix this with the dimensions of our logo*/
+	width: 500px; /*MCG we should fix this with the dimensions of our logo*/
 }
 
 /* Navbar */
@@ -242,17 +242,7 @@ transition: all 0.4s ease-in-out 0s;
 	padding: 0 0;
 }
 
-/* footer  MCG I got my own footer.css
-#page-footer {
-	float: none;
-	border-top: 1px solid #ddd;
-	 background: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-  background: -webkit-linear-gradient(#fff, #eee);
-  background: -moz-linear-gradient(center top, #fff 0%, #eee 100%);
-  background: -moz-gradient(center top, #fff 0%, #eee 100%);
-}
-*/
+
 
 /* forms and boxes */
 .mform fieldset {
@@ -618,57 +608,5 @@ table.user-grade {
 
 #page-header #searchforums {
 	margin-left: 10px;
-}
-
-/* MCG CSS added for the landing page sections */
-
-.wrapper1{
-   position: relative;
-   float: left;
-   left: 0.00%;
-   width: 100.00%;
-   margin-bottom: 0%;
-    background-color: #FC0
-
-}
-.left1{
-   position: relative;
-   float: left;
-   left: 0%;
-   width: 30.00%;
-   height: 50.00%;
-   
-}
-.left2 {
-   position: relative;
-   float: right;
-  
-   width: 70.00%;
-   height: 50.00%;
-   
-}
-
-#t_left2 {
-	
-	 float: right;
-  
-   width: 70.00%;
-	
-	font-family: Arial, helvetica, sans-serif;
- color:#050505;
- /* MCG fixing the size of font */
-	font-size: x-large;
-}
-
-
-
-/* MCG CSS added for logged frontpage */
-.wrapper2{
-   position: relative;
-   float: left;
-   left: 0.00%;
-   width: 100.00%;
-   margin-bottom: 0%;
-   
 }
 
