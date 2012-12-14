@@ -34,36 +34,21 @@
 	
 }
 
-@media screen and (min-width:900px) {
+
 p.t_left2 {
     text-align: left;
     line-height: normal;
     font-family: Arial, helvetica, sans-serif;
     color: #050505;
-    font-size: 160%;/* MCG fixing the size of h1 */
-    margin: 5px 0 0; /* MCG in Mary's original this was 10px, so I guess that 140px (imagen height)-10px for padding makes the 130px height of #left2 */
+     margin: 5px 0 0; /* MCG in Mary's original this was 10px, so I guess that 140px (imagen height)-10px for padding makes the 130px height of #left2 */
 	padding-right:1%;
 
 
 
 }
 
-}
-@media screen and (min-width:360px) {
-p.t_left2 {
-    text-align: left;
-    line-height: normal;
-    font-family: Arial, helvetica, sans-serif;
-    color: #050505;
-    font-size: 120%;/* MCG fixing the size of h1 */
-    margin: 5px 0 0; /* MCG in Mary's original this was 10px, so I guess that 140px (imagen height)-10px for padding makes the 130px height of #left2 */
-	padding-right:1%;
 
 
-
-}
-
-}
 
 #clearboth {
 	
@@ -77,7 +62,7 @@ p.padding {
     line-height: normal;
     font-family: Arial, helvetica, sans-serif;
     color:#808080 ;
-    font-size: 120%;
+  
 	padding-top:1%;
 
 padding-right:1%;
@@ -90,11 +75,9 @@ p.big {
     line-height: normal;
     font-family: Arial, helvetica, sans-serif;
   	color:#2895CE ;
-    font-size: 200%;
-	padding-top:1%;
-
-padding-right:1%;
-padding-left:1%;
+  	padding-top:1%;
+	padding-right:1%;
+	padding-left:1%;
 	
 }
 	

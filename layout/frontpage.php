@@ -10,7 +10,9 @@ $showsidepost = $hassidepost && !$PAGE->blocks->region_completely_docked('side-p
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 $haslogo = (!empty($PAGE->theme->settings->logo));
-//get userpref for col open or closed
+
+//get userpref for col open or closed 
+///MCG If we disable the accordion menu, this is not going to be of use for us
 cover_initialise_colpos($PAGE);
 $usercol = cover_get_colpos();
 if($usercol == "headerclosed") {
@@ -94,7 +96,13 @@ echo $OUTPUT->doctype() ?>
 <?php if ($hascustommenu) { ?>
 <div id="custommenu">
 <div id="menu-shortname"><?php echo $this->page->course->shortname ?></div>
-<a href="#" id="updown" class="<?php echo $themenu; ?>" title="toggle header"></a><?php echo $custommenu; ?></div>
+<?php echo $custommenu;
+
+///MCG in this bit is where you get rid of that annoying toggle icon
+ ?>
+
+</div>
+
 <?php } ?>
 <!-- end of menu -->	
 </div>

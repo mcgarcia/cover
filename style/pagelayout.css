@@ -1,7 +1,27 @@
 @media screen and (min-width:360px) { /*MCG default setting */
 
+p.t_left2 {
+   
+    font-size: 80%;/* MCG fixing the size of text in yellow background header*/
+   
 
 
+
+}
+
+p.padding {
+	
+	
+    font-size: 80%;
+	
+}
+
+p.big {
+	
+	    font-size: 100%;
+	
+	
+}
 
 #page-content #region-main #region-pre { 
 	
@@ -13,8 +33,28 @@
 
 @media screen and (min-width:800px) { /*MCG default setting */
 
+p.t_left2 {
+   
+    font-size: 100%;/* MCG fixing the size of text in yellow background header*/
+   
 
 
+
+}
+
+p.padding {
+	
+	
+    font-size: 90%;
+	
+}
+
+p.big {
+	
+	    font-size: 100%;
+	
+	
+}
 
 #page-content #region-main {
 	
@@ -32,6 +72,29 @@
 	
 	
 	width: 80%; /*MCG wrapper:90% -10% margins */
+}
+
+p.t_left2 {
+   
+    font-size: 160%;/* MCG fixing the size of text in yellow background header*/
+   
+
+
+
+}
+
+p.padding {
+	
+	
+    font-size: 120%;
+	
+}
+
+p.big {
+	
+	    font-size: 200%;
+	
+	
 }
 
 }

@@ -143,7 +143,7 @@ $THEME->layouts = array(
 /** List of javascript files that need to included on each page */
 /* MCG this disables the accordion menu */
 
-$THEME->javascripts = array('jquery-1.6.4.min','jquery.stickyPanel.min', 'custom'); 
+$THEME->javascripts = array('jquery-1.6.4.min'); 
 $THEME->javascripts_footer = array();
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';

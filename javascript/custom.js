@@ -7,7 +7,7 @@ if ($('#menu-wrap').hasClass('nowfixed')) {
 	$("html, body").animate({ scrollTop: 0 }, "fast");
 }
 
-/*MCG This is the bit that makes the accordion menu */
+/* MCG This is the bit that makes the accordion menu 
 
 if ($('#header-wrapper').hasClass('headerclosed')) {
 	  $('#header-wrapper, #menu-wrap').removeClass("headerclosed");
@@ -20,12 +20,12 @@ if ($('#header-wrapper').hasClass('headerclosed')) {
      }
  });
  
- /* MCG end of accordion menu */
- 
+ MCG end of accordion menu */
+/*  
   var stickyPanelOptions = {
                 topPadding: 0,
                 afterDetachCSSClass: "nowfixed",
                 savePanelSpace:false
             };
-           /* $("#menu-wrap").stickyPanel(stickyPanelOptions); MCG This line disables the sticky panel */
-        });
+            $("#menu-wrap").stickyPanel(stickyPanelOptions); MCG This line disables the sticky panel 
+        }); */

@@ -98,7 +98,13 @@ echo $OUTPUT->doctype() ?>
 <?php if ($hascustommenu) { ?>
 <div id="custommenu">
 <div id="menu-shortname"><?php echo'<a href="' . $CFG->wwwroot . '/course/view.php?id=' . $this->page->course->id . '" class="mcourse3">';?><?php echo $this->page->course->shortname ?></a></div>
-<a href="#" id="updown" class="<?php echo $themenu; ?>" title="toggle header"></a><?php echo $custommenu; ?></div>
+<?php echo $custommenu;
+/// ///MCG in this bit is where you get rid of that annoying toggle icon
+
+ ?>
+
+
+</div>
 <?php } ?>
 <!-- end of menu -->	
 </div>
