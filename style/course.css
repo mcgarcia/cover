@@ -23,11 +23,25 @@
 .path-course-view #region-main .region-content {
 	overflow: hidden;
 	width:80%;
+	margin-left:-5px;
 	
 	 
 }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { /*MCG Hack only for Chrome and Safari, a commitment between both browsers I can always try #width for Safari but this not
+a good practice */
+	
+	.path-course-view #region-main .region-content {
+	overflow: hidden;
+	width:82%;
+	
+	
+	 
+}
+	
+	
+	 }
 
 /** inside  of course **/
 ul.topics, ul.weeks {
