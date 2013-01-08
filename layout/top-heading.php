@@ -16,18 +16,18 @@
 <h1>  Study a postgraduate degree in Diabetes Care and Education in Kuwait </h1>
 <div id="wrapper2">
     <div id="column1">
-      <p  class="padding"> University of Dundee in association with Dasman Diabetes Instute offers a unique approach blah blah blah. n this version, the second image starts two thirds of the way down the first image. Cuando abandones tus sueños, sabrás que has muerto y los gusanos siempre están hambrientos. <a href="elpais.com"> Read more</a></p>
+      <p  class="padding"> Insert text here. <a href="elpais.com"> Read more</a></p>
      </div>
         <div id="column2">
            <img src="<?php echo $OUTPUT->pix_url('Information_programme', 'theme'); ?>" class="TextWrap" alt="" />
-            <p  class="padding">Dr. Mairi Scott, the Programme Director, is telling us about the programme. I need this text !</p>
+            <p  class="padding">Insert text here</p>
             
         </div>
     
 </div>
 <div id="wrapper2">
     <div id="column3">
-      <p  class="padding"> Choose Modules from several areas, blabh blah blah blah. n this version, the second image starts two thirds of the way down the first image. Cuando abandones tus sueños, sabrás que has muerto y los gusanos siempre están hambrientos. <a href="elpais.com"> Read more</a></p>
+      <p  class="padding"> Choose Modules from several areas <a href="elpais.com"> Read more</a></p>
      </div>
         <div id="column4">
           
